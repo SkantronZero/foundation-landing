@@ -1,19 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 1px solid red;
+}
+
 header {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(31, 41, 55, 255);
-    font-size: 40px;
+    font-size: 24px;
     color: #F9FAF8;
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
 }
 
 .largertext{
     font-size: 24px;
+    align-items: center;
 }
 
 .options{
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+.options ul{
+    display: flex;
+}
+
+.options ul li{
+    list-style: none;
+    padding: 0;
 }
 
 .hero{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(31, 41, 55, 255);
 }
 
