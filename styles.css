@@ -100,11 +100,75 @@ hero {
 .main-content {
     height: 400px;
     background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.main-content-container {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.main-content-container-header{
+    display: flex;
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.main-content-container-image-block{
+    display: flex;
+    flex-direction: column;
+
 
 }
 
 
+.main-content-container-image-block-images{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
 
+.main-content-container-image-block-images li {
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+.main-content-container-image-block-text{
+    display:flex;
+    justify-content: space-between;
+}
+
+.main-content-container-image-block-text li {
+    width: 120px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+
+}
 
 
 
